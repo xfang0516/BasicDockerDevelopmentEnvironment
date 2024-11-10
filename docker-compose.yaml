@@ -1,0 +1,93 @@
+version: '3.9'
+services:
+  redis:
+    image: redis:6-alpine
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis-data:/data
+    networks:
+      - app-network
+  mysql:
+    image: mysql:8.4
+    volumes:
+      - ./db/8:/var/lib/mysql
+    networks:
+      - app-network
+    ports:
+      - '3306:3306'
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_ROOT_HOST=%
+    restart: always
+    command: --default-time-zone='Asia/Singapore'
+  mqnamesrv:
+    image: apache/rocketmq
+    container_name: mqnamesrv
+    ports:
+      - '9876:9876'
+    environment:
+      - JAVA_OPT=-Xms512m -Xmx512m -Xmn256m
+    logging:
+      options:
+        max-size: '10m'
+        max-file: '5'
+    volumes:
+      - rocketmq-data:/opt/rocketmq/
+      - ./conf/logback_namesrv.xml:/opt/rocketmq/conf/logback.xml
+    command: sh mqnamesrv
+    networks:
+      - app-network
+  mqbroker:
+    image: apache/rocketmq
+    container_name: mqbroker
+    ports:
+      - '10911:10911'
+      - '10909:10909'
+    environment:
+      - JAVA_OPT_EXT=-Xms512m -Xmx512m -Xmn256m
+      - NAMESRV_ADDR=mqnamesrv:9876
+    logging:
+      options:
+        max-size: '10m'
+        max-file: '5'
+    volumes:
+      - rocketmq-data:/opt/rocketmq/store
+      - ./config/logback_broker.xml:/opt/rocketmq/conf/logback.xml
+      - ./config/broker.conf:/opt/rocketmq/conf/broker.conf
+    command: sh mqbroker -c /opt/rocketmq/conf/broker.conf --enable-proxy
+    networks:
+      - app-network
+  rocketmq-dashboard:
+    image: apacherocketmq/rocketmq-dashboard:latest
+    container_name: rocketmq-dashboard
+    environment:
+      - JAVA_OPTS=-Drocketmq.namesrv.addr=mqnamesrv:9876 -Xms256m -Xmx512m
+    ports:
+      - '8080:8080'
+    depends_on:
+      - mqnamesrv
+      - mqbroker
+    networks:
+      - app-network
+  rabbitmq:
+    build:
+      context: ./rabbitmq
+    container_name: rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=123456
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - app-network
+volumes:
+  redis-data:
+  rocketmq-data:
+  rabbitmq_data:
+networks:
+  app-network:
+    driver: bridge
