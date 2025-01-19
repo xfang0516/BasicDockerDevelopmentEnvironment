@@ -1,4 +1,3 @@
-version: '3.9'
 services:
   redis:
     image: redis:6-alpine
@@ -6,14 +5,10 @@ services:
       - '6379:6379'
     volumes:
       - redis-data:/data
-    networks:
-      - app-network
   mysql:
     image: mysql:8.4
     volumes:
       - ./db/8:/var/lib/mysql
-    networks:
-      - app-network
     ports:
       - '3306:3306'
     environment:
@@ -36,8 +31,6 @@ services:
       - rocketmq-data:/opt/rocketmq/
       - ./conf/logback_namesrv.xml:/opt/rocketmq/conf/logback.xml
     command: sh mqnamesrv
-    networks:
-      - app-network
   mqbroker:
     image: apache/rocketmq
     container_name: mqbroker
@@ -56,20 +49,16 @@ services:
       - ./config/logback_broker.xml:/opt/rocketmq/conf/logback.xml
       - ./config/broker.conf:/opt/rocketmq/conf/broker.conf
     command: sh mqbroker -c /opt/rocketmq/conf/broker.conf --enable-proxy
-    networks:
-      - app-network
   rocketmq-dashboard:
     image: apacherocketmq/rocketmq-dashboard:latest
     container_name: rocketmq-dashboard
     environment:
-      - JAVA_OPTS=-Drocketmq.namesrv.addr=mqnamesrv:9876 -Xms256m -Xmx512m
+      - JAVA_OPTS=-Drocketmq.namesrv.addr=mqnamesrv:9876 -Xms512m -Xmx512m
     ports:
       - '8080:8080'
     depends_on:
-      - mqnamesrv
+      - mqnamesrvs
       - mqbroker
-    networks:
-      - app-network
   rabbitmq:
     build:
       context: ./rabbitmq
@@ -82,8 +71,6 @@ services:
       - '15672:15672'
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
-    networks:
-      - app-network
   nexus:
     image: sonatype/nexus3
     container_name: nexus
@@ -91,8 +78,6 @@ services:
       - '8081:8081'
     volumes:
       - ./nexus-data:/nexus-data
-    networks:
-      - app-network
   pdf-util:
     image: swr.ap-southeast-3.myhuaweicloud.com/ccpay/pdf-util:test
     container_name: pdf-util
@@ -104,10 +89,8 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
     ports:
       - '10000:80'
+
 volumes:
   redis-data:
   rocketmq-data:
   rabbitmq_data:
-networks:
-  app-network:
-    driver: bridge
