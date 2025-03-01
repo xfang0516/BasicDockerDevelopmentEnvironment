@@ -3,8 +3,6 @@ services:
     image: redis:6-alpine
     ports:
       - '6379:6379'
-    volumes:
-      - redis-data:/data
   mysql:
     image: mysql:8.4
     volumes:
@@ -19,6 +17,7 @@ services:
   mqnamesrv:
     image: apache/rocketmq
     container_name: mqnamesrv
+    network_mode: host
     ports:
       - '9876:9876'
     environment:
@@ -34,12 +33,13 @@ services:
   mqbroker:
     image: apache/rocketmq
     container_name: mqbroker
+    network_mode: host
     ports:
       - '10911:10911'
       - '10909:10909'
     environment:
       - JAVA_OPT_EXT=-Xms512m -Xmx512m -Xmn256m
-      - NAMESRV_ADDR=mqnamesrv:9876
+      - NAMESRV_ADDR=127.0.0.1:9876
     logging:
       options:
         max-size: '10m'
@@ -48,17 +48,18 @@ services:
       - rocketmq-data:/opt/rocketmq/store
       - ./config/logback_broker.xml:/opt/rocketmq/conf/logback.xml
       - ./config/broker.conf:/opt/rocketmq/conf/broker.conf
-    command: sh mqbroker -c /opt/rocketmq/conf/broker.conf --enable-proxy
+    command: sh mqbroker -c /opt/rocketmq/conf/broker.conf
   rocketmq-dashboard:
     image: apacherocketmq/rocketmq-dashboard:latest
     container_name: rocketmq-dashboard
     environment:
-      - JAVA_OPTS=-Drocketmq.namesrv.addr=mqnamesrv:9876 -Xms512m -Xmx512m
+      - JAVA_OPTS=-Drocketmq.namesrv.addr=127.0.0.1:9876 -Xms512m -Xmx512m
     ports:
       - '8080:8080'
     depends_on:
-      - mqnamesrvs
+      - mqnamesrv
       - mqbroker
+    network_mode: host
   rabbitmq:
     build:
       context: ./rabbitmq
@@ -82,7 +83,7 @@ services:
     image: swr.ap-southeast-3.myhuaweicloud.com/ccpay/pdf-util:test
     container_name: pdf-util
     ports:
-      - '5000:5000'
+      - '5100:5000'
   nginx:
     image: nginx
     volumes:
@@ -91,6 +92,5 @@ services:
       - '10000:80'
 
 volumes:
-  redis-data:
   rocketmq-data:
   rabbitmq_data:
