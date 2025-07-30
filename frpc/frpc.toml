@@ -1,0 +1,9 @@
+[common]
+server_addr = 43.159.42.232
+server_port = 7000
+
+[test]
+type = tcp
+local_ip = 172.20.10.4
+local_port = 8848
+remote_port = 4306
