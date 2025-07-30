@@ -31,7 +31,6 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=123456
       - MYSQL_ROOT_HOST=%
-    restart: always
     command: --default-time-zone='Asia/Singapore'
   mqnamesrv:
     image: apache/rocketmq
