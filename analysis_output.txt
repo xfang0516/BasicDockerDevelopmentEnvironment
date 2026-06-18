@@ -1,0 +1,80 @@
+﻿=== Slide 32 Detailed ===
+Shape 0: name=object 3, type=TEXT_BOX (17)
+  pos: L=838200 T=838200 W=9121140 H=790575
+  margins: L=0 T=57150 R=0 B=0
+  para 0: level=0, align=None, line_spacing=363220
+    para.font: name=None, size=None, bold=None
+    run 0: text='鐢ㄦ埛鍦║nibit Console鐞嗚储涓婚〉涓紝閫夋嫨鐩爣鐞嗚储浜у搧锛岀偣鍑烩€滆喘涔扳€濇寜閽紝鍦ㄥ脊鍑虹殑纭璐拱寮圭獥涓煡鐪嬩骇鍝佽鎯呭悗鐐瑰嚮鈥滅‘瀹氣€濓紝鍗冲彲瀹屾垚鐞嗚储浜у搧鐨勮喘涔版搷浣溿€?
+      font: name=None, size=None, bold=None
+      color type=None
+      color error: no .rgb property on color type '_NoneColor'
+Shape 1: name=鏂囨湰妗?8, type=TEXT_BOX (17)
+  pos: L=2567305 T=228600 W=4923155 H=534035
+  margins: L=91440 T=45720 R=91440 B=45720
+  para 0: level=0, align=CENTER (2), line_spacing=0.9
+    para.font: name=None, size=None, bold=None
+    run 0: text='鐞嗚储浜у搧'
+      font: name=None, size=32.0, bold=None
+      color type=SCHEME (2)
+      color error: no .rgb property on color type '_SchemeColor'
+    run 1: text='璐拱'
+      font: name=None, size=32.0, bold=None
+      color type=SCHEME (2)
+      color error: no .rgb property on color type '_SchemeColor'
+Shape 2: name=鍥剧墖 3, type=PICTURE (13)
+  pos: L=609600 T=2286000 W=8528050 H=4492625
+
+=== Slide 3 GROUP ===
+GROUP shape 1: name=group 2
+  pos: L=4231264 T=264376 W=1612055 H=407212
+  sub: name=picture 24, type=PICTURE (13)
+  sub: name=textbox 26, type=AUTO_SHAPE (1)
+    text='鎵惧洖瀵嗙爜', size=32.0
+
+=== Layouts ===
+Layout 0: Title
+Layout 1: Title and Content
+  ph 0: idx=0, type=TITLE (1), name=Holder 2
+    font: size=None, bold=None
+  ph 1: idx=1, type=BODY (2), name=Holder 3
+    font: size=None, bold=None
+  ph 2: idx=5, type=FOOTER (15), name=Holder 4
+    font: size=None, bold=None
+  ph 3: idx=6, type=DATE (16), name=Holder 5
+    font: size=None, bold=None
+  ph 4: idx=7, type=SLIDE_NUMBER (13), name=Holder 6
+    font: size=None, bold=None
+
+=== All slides summary ===
+Slide 1: layout=Title, group_title='', top_title='', has_group=False
+Slide 2: layout=Title, group_title='', top_title='', has_group=False
+Slide 3: layout=Title, group_title='鎵惧洖瀵嗙爜', top_title='', has_group=True
+Slide 4: layout=Title, group_title='淇敼瀵嗙爜', top_title='', has_group=True
+Slide 5: layout=Title, group_title='娉ㄥ唽', top_title='', has_group=True
+Slide 6: layout=Title, group_title='', top_title='', has_group=False
+Slide 7: layout=Title, group_title='', top_title='', has_group=False
+Slide 8: layout=Title, group_title='KYC绛夊緟瀹℃牳', top_title='', has_group=True
+Slide 9: layout=Title, group_title='棣栭〉', top_title='', has_group=True
+Slide 10: layout=Title, group_title='娉曞竵璧勪骇-璐︽埛绠＄悊', top_title='', has_group=True
+Slide 11: layout=Title, group_title='娉曞竵璧勪骇-鍏ラ噾', top_title='', has_group=True
+Slide 12: layout=Title, group_title='娉曞竵璧勪骇-鍏ラ噾寰呭鏍?, top_title='', has_group=True
+Slide 13: layout=Title, group_title='娉曞竵璧勪骇-鍏ラ噾瀹℃牳閫氳繃', top_title='', has_group=True
+Slide 14: layout=Title, group_title='娉曞竵璧勪骇-鎻愮幇璐︽埛鍒楄〃', top_title='', has_group=True
+Slide 15: layout=Title, group_title='娉曞竵璧勪骇-鏂板鎻愮幇璐︽埛', top_title='', has_group=True
+Slide 16: layout=Title, group_title='娉曞竵璧勪骇-鎻愮幇', top_title='', has_group=True
+Slide 17: layout=Title, group_title='娉曞竵璧勪骇-鎻愮幇寰呭鎵?, top_title='', has_group=True
+Slide 18: layout=Title, group_title='娉曞竵璧勪骇-鎻愮幇瀹℃壒閫氳繃', top_title='', has_group=True
+Slide 19: layout=Title, group_title='鍔犲瘑璧勪骇-璐︽埛绠＄悊', top_title='', has_group=True
+Slide 20: layout=Title, group_title='鍔犲瘑璧勪骇-鍏ラ噾', top_title='', has_group=True
+Slide 21: layout=Title, group_title='鍔犲瘑璧勪骇-鍏ラ噾', top_title='', has_group=True
+Slide 22: layout=Title, group_title='鍔犲瘑璧勪骇-鍏ラ噾寰呭鏍?, top_title='', has_group=True
+Slide 23: layout=Title, group_title='鍔犲瘑璧勪骇-鍑哄叆閲戣处鎴风鐞?, top_title='', has_group=True
+Slide 24: layout=Title, group_title='鍔犲瘑璧勪骇-鎻愮幇', top_title='', has_group=True
+Slide 25: layout=Title, group_title='鍔犲瘑璧勪骇-鎻愮幇寰呭鎵?, top_title='', has_group=True
+Slide 26: layout=Title, group_title='鍔犲瘑璧勪骇-鎻愮幇瀹℃壒閫氳繃', top_title='', has_group=True
+Slide 27: layout=Title, group_title='鎹㈡眹', top_title='', has_group=True
+Slide 28: layout=Title and Content, group_title='', top_title='鐞嗚储涓婚〉', has_group=False
+Slide 29: layout=Title and Content, group_title='', top_title='鐞嗚储璐︽埛鍏ラ噾', has_group=False
+Slide 30: layout=Title and Content, group_title='', top_title='鎴戠殑鎸佷粨', has_group=False
+Slide 31: layout=Title and Content, group_title='', top_title='鐞嗚储璐︽埛浜ゆ槗娴佹按', has_group=False
+Slide 32: layout=Title and Content, group_title='', top_title='鐞嗚储浜у搧璐拱', has_group=False

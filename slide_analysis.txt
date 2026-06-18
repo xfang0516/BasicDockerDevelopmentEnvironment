@@ -1,0 +1,756 @@
+﻿
+===== Slide 1 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=2.02 T=2.73 W=7.04 H=1.5
+       {'text': 'Unibi', 'size_pt': 49.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户端', 'size_pt': 49.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '系统使', 'size_pt': 49.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用手', 'size_pt': 49.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '册', 'size_pt': 49.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] PICTURE L=0.67 T=5.93 W=2.92 H=1.36
+  [2] TEXT_BOX L=9.71 T=6.92 W=0.95 H=0.23
+       {'text': '2025-03-2', 'size_pt': 14.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '9', 'size_pt': 14.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+
+===== Slide 2 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=6.76 T=3.05 W=3.85 H=1.6
+       {'text': '在您的浏览器上访问', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'https://wallet.', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'unibit.ltd', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '使用', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '您的用户名和密码', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '登', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '录。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] TEXT_BOX L=9.71 T=6.92 W=0.46 H=0.23
+       {'text': 'Login', 'size_pt': 14.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [2] PICTURE L=0.41 T=2.33 W=6.1 H=3.63
+
+===== Slide 3 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=0.83 T=0.73 W=9.91 H=2.03
+       {'text': '用户进入', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'Unibit', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '官方网站后，', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '点击页面右上角的', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '登录', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮，', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '在登录页面点击', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '忘记密码', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '链接进入', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '重置密码页面，', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '输入注册', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '邮箱地址并点击', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '发送验证码', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮，', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '系统将验证码发送到邮箱', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': ',用户输入验证码后设置并确认新密码，  点击', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '重置', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '密码', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '完成密码重置，', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '重置成功后即可使用新密码登录账户。', 'size_pt': 24.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=4.63 T=0.29 W=1.76 H=0.45
+  [2] PICTURE L=0.74 T=3.21 W=9.64 H=4.84
+
+===== Slide 4 =====
+Layout: Title, Shapes: 4
+  [0] TEXT_BOX L=0.84 T=1.48 W=9.75 H=1.23
+       {'text': '用户登录后，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '点击右上角的', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '头像按钮，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '在下拉菜单中选择', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '修', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '改密码', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '选项，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '然后在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '弹出的窗口中输入原密码、 新密码和确', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '认密码，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '最后点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '确认', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮即可完成密码修改。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=4.63 T=0.29 W=1.76 H=0.45
+  [2] PICTURE L=0.09 T=4.75 W=5.15 H=2.61
+  [3] PICTURE L=5.65 T=4.75 W=5.03 H=2.61
+
+===== Slide 5 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=0.84 T=1.48 W=9.91 H=1.63
+       {'text': '用户进入', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'Unibit', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '官网后点击右', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '上角', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '注册', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '填写邮箱并获', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '取验证码，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '设置密码并确认，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '选择账户类型', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '（企业或个人', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '）', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '勾选同意服务条款后点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '继续', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮完成注', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '册，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '已有账号可点', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '登录', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '进入登录页面', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=5.07 T=0.29 W=0.87 H=0.45
+  [2] PICTURE L=0.65 T=3.48 W=9.79 H=4.7
+
+===== Slide 6 =====
+Layout: Title, Shapes: 2
+  [0] TEXT_BOX L=0.84 T=0.28 W=9.97 H=3.23
+       {'text': '注册', 'size_pt': 32.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 32.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '个人', 'size_pt': 32.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'KYC', 'size_pt': 32.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '注册成功后，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户需填写个人信息，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '包括选择国家区号并输入', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '手机号，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '填写真实姓名和证件', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '号码， 选择证件类型及签发日期', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': ',确认证件是否长期有效，  上传证件正', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '面照片，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '选择所在国家', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '并填写州省、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '城市、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '详细地址和邮编，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '最后点', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '击提交按钮完成', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'KYC', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '认证。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] PICTURE L=0.61 T=3.72 W=9.94 H=4.62
+
+===== Slide 7 =====
+Layout: Title, Shapes: 4
+  [0] TEXT_BOX L=1.0 T=0.28 W=9.98 H=4.11
+       {'text': '注册', 'size_pt': 32.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 32.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '企业', 'size_pt': 32.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'KYC', 'size_pt': 32.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户在开设企业账户时需填写手机号、 公司名称和注册号，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '输', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入公司成立日期，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '上传公', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '司证书列表、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '章程列表和股东名册  (', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '需公证', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '）', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '选择国家并填写', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '公司所在的省、 市、详细地址和邮', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '编，然后填写至少一位', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '最终受益人信息，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '包括手机号、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '姓名、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '证件类型及号码、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '证件签发日期和是否长期', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '有效， 上传证件正', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '面图片，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '选择国家并填写该受', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '益人所在的省、 市、地址和邮编', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': ',全部信息填写完成后点击页面底部的', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提交', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮完成', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '企业开', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '户认证。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] PICTURE L=0.33 T=4.83 W=3.34 H=1.76
+  [2] PICTURE L=4.0 T=4.84 W=3.24 H=1.71
+  [3] PICTURE L=7.42 T=4.84 W=3.22 H=1.7
+
+===== Slide 8 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=1.0 T=1.14 W=9.79 H=1.23
+       {'text': '当用户完成', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'KYC', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '资料提交后，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '系统将进入审核状态，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '此时页面', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '将显示', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'KYC', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '资料正在审', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '核中', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '的提示，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户需耐心等待后台审', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '核完成，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '审核通过后方可正常使用平台相关功能。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=4.31 T=0.29 W=2.42 H=0.45
+  [2] PICTURE L=0.54 T=2.78 W=10.25 H=5.56
+
+===== Slide 9 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=1.0 T=1.14 W=9.91 H=1.63
+       {'text': 'KYC', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '审核通过后用户将进入首页，在首页可查看总资产余额', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '加密资产与法币资产余额、 最新汇率信息、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '新闻动态与公告，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '可进行充值操作，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '在右侧可使用加密货币查询功能', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '实时查看币种之间的兑换价格。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=5.08 T=0.29 W=0.87 H=0.45
+  [2] PICTURE L=0.2 T=3.09 W=10.5 H=5.06
+
+===== Slide 10 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=1.0 T=1.14 W=9.98 H=2.03
+       {'text': '在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '法币资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '账户管理', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户可以查看当前账户下', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '所有', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '法币币种的余额、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '对应的美元估值和', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '资产占比情况，页面上方', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '可查看法币总资产、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '转入转出处理中资产及可用余', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '额，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '并可通', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '过', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '或', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '转出', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮进行资金操作， 同时可切', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '换查看交易明', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '细、入金记录和提现记录。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=3.67 T=0.29 W=3.68 H=0.45
+  [2] PICTURE L=0.56 T=3.51 W=10.2 H=4.71
+
+===== Slide 11 =====
+Layout: Title, Shapes: 4
+  [0] TEXT_BOX L=1.0 T=1.14 W=9.98 H=2.03
+       {'text': '在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '法币资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户可', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '选择入金币种和收款银行，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '查看对应的银行名称、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '银行代码、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '分行代码、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '账户名、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'SWIFT ', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'Code', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '、收款公司、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '银行国家与城市、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '银行详细地址等信息', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户需根据提示将资金汇入指定账户， 并填写入金金额和备注', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '信息，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '同时上传汇款凭证后点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提交', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮完成操作。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=4.12 T=0.29 W=2.79 H=0.45
+  [2] PICTURE L=0.23 T=4.08 W=4.24 H=2.84
+  [3] PICTURE L=4.92 T=4.08 W=5.53 H=2.84
+
+===== Slide 12 =====
+Layout: Title, Shapes: 3
+  [0] PICTURE L=0.83 T=3.25 W=9.82 H=4.82
+  [1] TEXT_BOX L=1.0 T=1.14 W=9.98 H=2.03
+       {'text': '在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '法币资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金记录', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户可以查看所有入金申', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '请的', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '处理状态，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '包括入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '银行名称与账号、 入金金额、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '手续费及到', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '账金额、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '币种、交易编号、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金凭证、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '备注与提交时间，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '当前', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '状态显示为', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '待审核', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '表示系统尚未完成审核， 审核通过后资金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '将计入可用余额。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [2] GROUP L=3.45 T=0.29 W=4.12 H=0.45
+
+===== Slide 13 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=1.0 T=1.14 W=9.98 H=1.63
+       {'text': '当入金审核通过后，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面将显示状态为', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '已完成', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '，可用余额同', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '步更新为实际到账金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '额， 同时在入金记录中可查看详细信息，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '包括入金银行、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '账号、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '金额、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '手续费、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '到账金额、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '币种、交易', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '编号、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金凭证、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '备注及', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '时间等内容。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=3.23 T=0.29 W=4.57 H=0.45
+  [2] PICTURE L=0.48 T=3.07 W=10.31 H=5.16
+
+===== Slide 14 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=1.0 T=1.14 W=9.98 H=1.63
+       {'text': '在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '法币资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提现账户', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户可以查看已添加的银', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '行账', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '户信息，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '包括银行名称、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '账号、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'SWIFT', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '码、法', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '定全名、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '所属国', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '家、所在城市和详细地址等，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '目前页面暂无数', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '据，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户可点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '右上角', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '新增银行卡', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮添加新的提现账户。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=3.23 T=0.29 W=4.57 H=0.45
+  [2] PICTURE L=0.41 T=3.07 W=10.29 H=5.04
+
+===== Slide 15 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=1.0 T=1.14 W=9.91 H=1.63
+       {'text': '用户点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '新增银行卡', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮后将弹出添加银行卡窗口，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': ' 需依次', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '填写银行名称、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '银行账号、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': 'SWIFT', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '代码、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '法', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '定全名、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '银行地址  ', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '、所属国家及银行所在城市， 确认信息无误后点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '确认', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '即可', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '完成提现账户的添加。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=3.23 T=0.29 W=4.57 H=0.45
+  [2] PICTURE L=0.69 T=3.15 W=10.07 H=5.06
+
+===== Slide 16 =====
+Layout: Title, Shapes: 4
+  [0] TEXT_BOX L=1.0 T=1.14 W=9.98 H=1.63
+       {'text': '在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '法币资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '转出', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户需选择转出钱包币种、 目标银', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '行卡、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '手续费承担方式，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '并填写转出金额，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '系统将自动计算手', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '续费及实际到账金额，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '确认无误后点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '确认', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮即可提', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '交提', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '现申请。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=4.12 T=0.29 W=2.79 H=0.45
+  [2] PICTURE L=0.22 T=3.57 W=4.21 H=3.17
+  [3] PICTURE L=4.82 T=3.57 W=5.95 H=3.17
+
+===== Slide 17 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=0.59 T=1.14 W=9.98 H=1.63
+       {'text': '当用户提交提现申请后，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '系统会将资金转入', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '转出处理中资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': ',页面状态显示为', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '待审核', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '，用户可在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提现记录', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面查看提', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '现银行名称与账号、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提现金额、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '手续费、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '币种、手续费承担方', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '式、交易编号、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提交时间及当前审核状态。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=3.45 T=0.29 W=4.12 H=0.45
+  [2] PICTURE L=0.42 T=2.9 W=10.44 H=5.31
+
+===== Slide 18 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=0.59 T=1.14 W=9.97 H=2.03
+       {'text': '当提现审核通过后，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面状态将', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '显示为', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '已完成', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '，系统将自动', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '从账户余额中扣除相应金额及手续费， 用户可在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提现记录', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '中', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '查看提现银行信息、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提现金额', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '手续费及承担方式、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '币种、交', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '易编号、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '备注、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提现时间等详细信息，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提现', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '资金将按银行处理', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '周期到账。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=3.23 T=0.29 W=4.57 H=0.45
+  [2] PICTURE L=0.35 T=3.19 W=10.44 H=5.31
+
+===== Slide 19 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=0.59 T=1.14 W=9.97 H=2.03
+       {'text': '在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '加密资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '账户管理', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户可以查看各类加密货', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '币资', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '产的余额、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '对应的美元估值及资产占比情况， 页面顶部显示加', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '密资产总额并提供', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '下方支持在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '钱包列表', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '交', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '易明细', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金记录', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '和', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提现记录', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '之间切换查看详', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '细资产记', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '录。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=3.67 T=0.29 W=3.68 H=0.45
+  [2] PICTURE L=0.54 T=3.41 W=10.17 H=4.86
+
+===== Slide 20 =====
+Layout: Title, Shapes: 4
+  [0] TEXT_BOX L=0.58 T=1.14 W=9.97 H=2.03
+       {'text': '在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '加密资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户需选择入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '方式、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '币种及对应', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '的区块链网络，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '系统将生成专属充值地址', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '和二维码，用户需将', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '加密货币从支持该网', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '络的钱包地址转入系统提供的地址，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '并填', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '写入金金额、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '交易哈希并上传转账凭', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '证，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '确认手续费和到账金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '额无误后点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '确认入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提交', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '申请。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=4.11 T=0.29 W=2.79 H=0.45
+  [2] PICTURE L=0.34 T=3.37 W=4.78 H=3.96
+  [3] PICTURE L=5.4 T=3.42 W=4.66 H=3.91
+
+===== Slide 21 =====
+Layout: Title, Shapes: 4
+  [0] PICTURE L=0.33 T=3.5 W=5.22 H=4.12
+  [1] PICTURE L=5.75 T=3.5 W=5.13 H=4.12
+  [2] TEXT_BOX L=0.58 T=1.14 W=9.97 H=2.03
+       {'text': '在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '加密资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户需选择入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '方式、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '币种及对应', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '的区块链网络，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '系统将生成专属充值地址', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '和二维码，用户需将', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '加密货币从支持该网', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '络的钱包地址转入系统提供的地址，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '并填', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '写入金金额、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '交易哈希并上传转账凭', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '证，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '确认手续费和到账金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '额无误后点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '确认入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提交', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '申请。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [3] GROUP L=4.11 T=0.29 W=2.79 H=0.45
+
+===== Slide 22 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=0.59 T=1.14 W=9.97 H=2.03
+       {'text': '当用户提交加密资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金申请后， 可在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '加密资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金记录', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面查看记录详情，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '系统会显示付款钱包地址、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金金额、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '手', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '续费、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '到账金额、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '入金钱包地址、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '币种、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '区块链网络、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '交易哈', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '希、状态及入金时间，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '状态为', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '待审核', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '表示该笔入金正在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '审核', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '中，审核通过后资产将计入账', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '户余额。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=3.45 T=0.29 W=4.12 H=0.45
+  [2] PICTURE L=0.35 T=3.35 W=10.32 H=4.76
+
+===== Slide 23 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=0.59 T=1.14 W=9.9 H=1.63
+       {'text': '在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '加密资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '出入金账户管理', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户可查看已添加', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '的钱', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '包名称、', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '钱包地址和创建时间，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '并可点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '新增入金', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '/', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '提现钱包', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮添加新的加密钱包地址， 或点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '删除', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '移除已有地', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '址，以便进行加密资产的收款或转出操作。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=3.0 T=0.29 W=5.01 H=0.45
+  [2] PICTURE L=0.59 T=2.95 W=9.97 H=5.0
+
+===== Slide 24 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=0.59 T=1.14 W=9.97 H=1.63
+       {'text': '在', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '加密资产', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '-', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '转出', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '页面，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '用户需选择转出钱包币种和', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '目标区', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '块链钱包地址，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '填写转出金额后系统将', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '自动计算手续费和实际', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '到账金额，', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '确认信息无误后点击', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '“', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '确认转出', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '”', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '按钮即可提交', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '加密', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+       {'text': '资产的提现申请。', 'size_pt': 26.0, 'bold': None, 'align': 'LEFT ', 'color': '000000'}
+  [1] GROUP L=4.11 T=0.29 W=2.79 H=0.45
+  [2] PICTURE L=0.41 T=2.99 W=10.05 H=5.23
+
+===== Slide 25 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=0.59 T=1.14 W=9.97 H=2.03
+       {'text': '当用户提交加密资产提现申请后， 可在“加密资产-提现记录”', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '页面查看相关信息，', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '包括钱包地址、', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '提现金额', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '、 手续费、 币种', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '、交易编号、 备注、 时间等，状态显示为“待审核”表示该笔提', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+  [1] GROUP L=3.45 T=0.29 W=4.12 H=0.45
+  [2] PICTURE L=0.54 T=3.37 W=10.19 H=4.87
+
+===== Slide 26 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=0.59 T=1.14 W=9.97 H=1.63
+       {'text': '当虚拟资产的提现申请审核通过后， 记录状态将显', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '示为“', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '已完成”，此时用户可以看到提现的币种、 提现金额、', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '手续费、', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '实', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '际到账金额、 交易编号等信息， 且资金已成功转入指定的钱包地', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+  [1] GROUP L=3.22 T=0.29 W=4.57 H=0.45
+  [2] PICTURE L=0.5 T=3.06 W=10.23 H=5.2
+
+===== Slide 27 =====
+Layout: Title, Shapes: 3
+  [0] TEXT_BOX L=0.59 T=1.22 W=9.97 H=1.23
+       {'text': '在“换汇”页面， 用户可以选择兑换的币种， 输入可用余额并选', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '误后', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+       {'text': '点击“确认交易”按钮完成换汇操作。', 'size_pt': 18.0, 'bold': None, 'align': 'LEFT ', 'color': None}
+  [1] GROUP L=5.08 T=0.29 W=0.87 H=0.45
+  [2] PICTURE L=0.51 T=2.84 W=9.92 H=5.43
+
+===== Slide 28 =====
+Layout: Title and Content, Shapes: 3
+  [0] TEXT_BOX L=0.83 T=1.42 W=9.97 H=1.27
+       {'text': '用户通过用户名和密码登录Unibit用户端，点击左侧导航栏中', 'size_pt': None, 'bold': None, 'align': None, 'color': None}
+  [1] TEXT_BOX L=2.81 T=0.25 W=5.38 H=0.58
+       {'text': '理财', 'size_pt': 32.0, 'bold': None, 'align': 'CENTER ', 'color': None}
+       {'text': '主页', 'size_pt': 32.0, 'bold': None, 'align': 'CENTER ', 'color': None}
+  [2] PICTURE L=0.83 T=2.92 W=9.59 H=4.81
+
+===== Slide 29 =====
+Layout: Title and Content, Shapes: 3
+  [0] TEXT_BOX L=0.83 T=1.42 W=9.97 H=0.86
+       {'text': '用户在Unibit 理财主页中，点击“入金”按钮，在弹窗中选', 'size_pt': 20.0, 'bold': None, 'align': None, 'color': None}
+  [1] TEXT_BOX L=2.81 T=0.25 W=5.38 H=0.58
+       {'text': '理财账户', 'size_pt': 32.0, 'bold': None, 'align': 'CENTER ', 'color': None}
+       {'text': '入金', 'size_pt': 32.0, 'bold': None, 'align': 'CENTER ', 'color': None}
+  [2] PICTURE L=0.67 T=2.58 W=10.01 H=5.27
+
+===== Slide 30 =====
+Layout: Title and Content, Shapes: 3
+  [0] TEXT_BOX L=0.92 T=0.92 W=9.97 H=1.67
+       {'text': '用户在Unibit 理财主页中，点击“我的持仓”进入我的持仓', 'size_pt': None, 'bold': None, 'align': None, 'color': None}
+  [1] TEXT_BOX L=2.81 T=0.25 W=5.38 H=0.58
+       {'text': '我的', 'size_pt': 32.0, 'bold': None, 'align': 'CENTER ', 'color': None}
+       {'text': '持仓', 'size_pt': 32.0, 'bold': None, 'align': 'CENTER ', 'color': None}
+  [2] PICTURE L=0.75 T=2.58 W=10.2 H=5.38
+
+===== Slide 31 =====
+Layout: Title and Content, Shapes: 3
+  [0] TEXT_BOX L=0.92 T=0.92 W=9.97 H=1.27
+       {'text': '用户在Unibit Console理财主页中，点击对应币种卡', 'size_pt': None, 'bold': None, 'align': None, 'color': None}
+  [1] TEXT_BOX L=2.81 T=0.25 W=5.38 H=0.58
+       {'text': '理财账户交易', 'size_pt': 32.0, 'bold': None, 'align': 'CENTER ', 'color': None}
+       {'text': '流水', 'size_pt': 32.0, 'bold': None, 'align': 'CENTER ', 'color': None}
+  [2] PICTURE L=0.83 T=2.42 W=9.62 H=5.07
+
+===== Slide 32 =====
+Layout: Title and Content, Shapes: 3
+  [0] TEXT_BOX L=0.92 T=0.92 W=9.97 H=0.86
+       {'text': '用户在Unibit Console理财主页中，选择目标理财产', 'size_pt': None, 'bold': None, 'align': None, 'color': None}
+  [1] TEXT_BOX L=2.81 T=0.25 W=5.38 H=0.58
+       {'text': '理财产品', 'size_pt': 32.0, 'bold': None, 'align': 'CENTER ', 'color': None}
+       {'text': '购买', 'size_pt': 32.0, 'bold': None, 'align': 'CENTER ', 'color': None}
+  [2] PICTURE L=0.67 T=2.5 W=9.33 H=4.91

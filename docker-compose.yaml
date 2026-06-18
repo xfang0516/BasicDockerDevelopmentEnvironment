@@ -1,29 +1,12 @@
 services:
   redis:
     image: redis:6-alpine
+    restart: always
     ports:
       - '6379:6379'
-  redis-stack:
-    image: redis/redis-stack:latest
-    volumes:
-      - redis-stack-data:/data
-    ports:
-      - '7369:6379'
-      - '8001:8001'
-
-  neo4j:
-    image: neo4j:5.26.6-ubi9
-    container_name: neo4j
-    ports:
-      - '7474:7474' # HTTP
-      - '7687:7687' # Bolt
-    environment:
-      - NEO4J_AUTH=none
-    volumes:
-      - neo4j_data:/data
-      - neo4j_logs:/logs
   mysql:
     image: mysql:8.4.4
+    restart: always
     volumes:
       - ./db/8:/var/lib/mysql
     ports:
@@ -34,6 +17,7 @@ services:
     command: --default-time-zone='Asia/Singapore'
   mqnamesrv:
     image: apache/rocketmq
+    restart: always
     container_name: mqnamesrv
     network_mode: host
     ports:
@@ -50,6 +34,7 @@ services:
     command: sh mqnamesrv
   mqbroker:
     image: apache/rocketmq
+    restart: always
     container_name: mqbroker
     network_mode: host
     ports:
@@ -80,6 +65,7 @@ services:
     network_mode: host
   minio:
     image: minio/minio:RELEASE.2025-04-22T22-12-26Z-cpuv1
+    restart: always
     container_name: minio
     environment:
       - MINIO_ACCESS_KEY=minio
@@ -102,18 +88,6 @@ services:
       - '15672:15672'
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
-  # cobo-keygen:
-  #   build:
-  #     context: ./cobo
-  #     dockerfile: Dockerfile
-  #   image: cobo-keygen
-  frpc:
-    image: snowdreamtech/frpc:0.62-bookworm
-    volumes:
-      - ./frpc/frpc.toml:/etc/frp/frpc.toml
-    ports:
-      - '7000:7000'
-      - '7500:7500'
   elasticsearch:
     image: elasticsearch:8.18.2
     environment:
@@ -125,7 +99,6 @@ services:
       - '9300:9300'
     volumes:
       - es_data:/usr/share/elasticsearch/data
-
   # nexus:
   #   image: sonatype/nexus3
   #   container_name: nexus
@@ -143,6 +116,7 @@ services:
     network_mode: host
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./html:/usr/share/nginx/html:ro
   # nacos:
   #   image: hyperagi/nacos-client:last
   #   environment:
@@ -152,7 +126,76 @@ services:
   #     - WALLET_ADDRESS=0xaaC73e223DEc87218d849992b73B52be81910cAc
   #     - SERVICE_NAME=MFDoom/deepseek-r1-tool-calling:32b
   #   restart: always
-
+  # Nacos：四选一启动，host 模式共用 8848 端口，同时只能运行一个
+  #   docker compose --profile via up -d via_nacos
+  #   docker compose --profile em up -d otc_nacos
+  #   docker compose --profile uka up -d uka_nacos
+  #   docker compose --profile unibit up -d dcs_nacos
+  # 切换前先停掉当前实例: docker compose stop via_nacos
+  via_nacos:
+    profiles: [via]
+    image: nacos/nacos-server:v2.4.3
+    container_name: via_nacos
+    network_mode: host
+    volumes:
+      - via_nacos-data:/home/nacos/data
+    environment:
+      - MODE=standalone
+      - SPRING_DATASOURCE_PLATFORM=mysql
+      - MYSQL_SERVICE_HOST=127.0.0.1
+      - MYSQL_SERVICE_PORT=3306
+      - MYSQL_SERVICE_DB_NAME=via_nacos
+      - MYSQL_SERVICE_USER=root
+      - MYSQL_SERVICE_PASSWORD=123456
+      - MYSQL_SERVICE_DB_PARAM=characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+  otc_nacos:
+    profiles: [em]
+    image: nacos/nacos-server:v2.4.3
+    container_name: otc_nacos
+    network_mode: host
+    volumes:
+      - otc_nacos-data:/home/nacos/data
+    environment:
+      - MODE=standalone
+      - SPRING_DATASOURCE_PLATFORM=mysql
+      - MYSQL_SERVICE_HOST=127.0.0.1
+      - MYSQL_SERVICE_PORT=3306
+      - MYSQL_SERVICE_DB_NAME=otc_nacos
+      - MYSQL_SERVICE_USER=root
+      - MYSQL_SERVICE_PASSWORD=123456
+      - MYSQL_SERVICE_DB_PARAM=characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+  uka_nacos:
+    profiles: [uka]
+    image: nacos/nacos-server:v2.4.3
+    container_name: uka_nacos
+    network_mode: host
+    volumes:
+      - uka_nacos-data:/home/nacos/data
+    environment:
+      - MODE=standalone
+      - SPRING_DATASOURCE_PLATFORM=mysql
+      - MYSQL_SERVICE_HOST=127.0.0.1
+      - MYSQL_SERVICE_PORT=3306
+      - MYSQL_SERVICE_DB_NAME=uka_nacos
+      - MYSQL_SERVICE_USER=root
+      - MYSQL_SERVICE_PASSWORD=123456
+      - MYSQL_SERVICE_DB_PARAM=characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+  dcs_nacos:
+    profiles: [unibit]
+    image: nacos/nacos-server:v2.4.3
+    container_name: dcs_nacos
+    network_mode: host
+    volumes:
+      - dcs_nacos-data:/home/nacos/data
+    environment:
+      - MODE=standalone
+      - SPRING_DATASOURCE_PLATFORM=mysql
+      - MYSQL_SERVICE_HOST=127.0.0.1
+      - MYSQL_SERVICE_PORT=3306
+      - MYSQL_SERVICE_DB_NAME=dcs_nacos
+      - MYSQL_SERVICE_USER=root
+      - MYSQL_SERVICE_PASSWORD=123456
+      - MYSQL_SERVICE_DB_PARAM=characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
 volumes:
   rocketmq-data:
   rabbitmq_data:
@@ -160,3 +203,7 @@ volumes:
   neo4j_data:
   neo4j_logs:
   es_data:
+  via_nacos-data:
+  otc_nacos-data:
+  uka_nacos-data:
+  dcs_nacos-data:
